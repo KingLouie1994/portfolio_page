@@ -1,0 +1,13 @@
+.introductionContainer {
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    background-color: white;
+  }
+  
+  .introductionContainerDark {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: black;
+  }

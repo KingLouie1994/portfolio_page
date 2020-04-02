@@ -3,6 +3,8 @@
   justify-content: space-between;
   color: black;
   background-color: white;
+  height: 150px;
+  align-items: center;
 }
 
 .headerContainerDark {
@@ -10,4 +12,29 @@
   justify-content: space-between;
   color: white;
   background-color: black;
+  height: 150px;
+  align-items: center;
+}
+
+.name {
+  margin-left: 3%;
+  font-size: 2.5rem;
+}
+
+.nav {
+  display: flex;
+  width: 40%;
+  justify-content: space-evenly;
+}
+
+.navElement {
+  text-decoration: none;
+  color: black;
+  font-size: 1.4rem;
+}
+
+.navElementDark {
+  text-decoration: none;
+  color: white;
+  font-size: 1.4rem;
 }
