@@ -1,13 +1,30 @@
 .introductionContainer {
-    display: flex;
-    justify-content: space-between;
-    color: black;
-    background-color: white;
-  }
-  
-  .introductionContainerDark {
-    display: flex;
-    justify-content: space-between;
-    color: white;
-    background-color: black;
-  }
+  display: flex;
+  color: black;
+  background-color: white;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.introductionContainerDark {
+  display: flex;
+  color: white;
+  background-color: grey;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.greeting {
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.name {
+  font-size: 2.5rem;
+  margin-bottom: 8%;
+}
+
+.info {
+  font-size: 1.5rem;
+}

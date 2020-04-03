@@ -1,0 +1,27 @@
+.projectsContainer {
+  padding-bottom: 10%;
+}
+
+.projectsContainerDark {
+  color: white;
+  background-color: grey;
+  padding-bottom: 10%;
+}
+
+.projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  border: solid 2px rgb(235, 152, 0);
+  border-radius: 10px;
+  height: 400px;
+  box-shadow: 5px 5px 20px;
+}
+
+.projects:hover {
+    box-shadow: 5px 5px 20px orange;
+    transition: 1.5s;
+  }
