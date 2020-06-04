@@ -3,7 +3,7 @@ import styles from "./Contact.module.css";
 import { DarkModeContext } from "../darkmode/darkModeContext";
 
 const Contact = () => {
-  const [darkMode, setDarkMode] = useContext(DarkModeContext);
+  const [darkMode] = useContext(DarkModeContext);
 
   return (
     <div
@@ -24,6 +24,7 @@ const Contact = () => {
           </a>
           , or just write me on{" "}
           <a
+            rel="noopener noreferrer"
             target="_blank"
             className={styles.link}
             href="https://www.linkedin.com/in/luisschekerka/"

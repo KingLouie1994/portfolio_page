@@ -3,7 +3,7 @@ import styles from "./Projects.module.css";
 import { DarkModeContext } from "../darkmode/darkModeContext";
 
 const Projects = () => {
-  const [darkMode, setDarkMode] = useContext(DarkModeContext);
+  const [darkMode] = useContext(DarkModeContext);
 
   return (
     <div
