@@ -6,7 +6,7 @@ import { Icon } from "semantic-ui-react";
 const Header = () => {
   const [darkMode, setDarkMode] = useContext(DarkModeContext);
 
-  const toggleMode = e => {
+  const toggleMode = (e) => {
     e.preventDefault();
     setDarkMode(!darkMode);
   };

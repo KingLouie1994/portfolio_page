@@ -1,18 +1,14 @@
 import React from "react";
-import Header from "./components/Header/Header";
-import Introduction from "./components/Introduction/Introduction";
-import Projects from "./components/Projects/Projects";
-import Contact from "./components/Contact/Contact";
+import Welcome from "./components/Welcome/Welcome";
+import Container from "./components/Container/Container";
 import { DarkModeProvider } from "./components/darkmode/darkModeContext";
 
 function App() {
   return (
     <div className="App">
       <DarkModeProvider>
-        <Header />
-        <Introduction />
-        <Projects />
-        <Contact />
+        <Welcome />
+        <Container />
       </DarkModeProvider>
     </div>
   );
