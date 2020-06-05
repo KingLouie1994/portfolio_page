@@ -12,8 +12,11 @@ const Welcome = () => {
   setTimeout(() => setChangeDisplay("none"), 5000);
 
   return (
-    <div className={styles.testBox} style={{ opacity: `${changeOpacity}`, display: `${changeDisplay}` }}>
-      Welcome to my Portfolio Page
+    <div
+      className={styles.testBox}
+      style={{ opacity: `${changeOpacity}`, display: `${changeDisplay}` }}
+    >
+      <h1>Welcome to my Portfolio Page</h1>
     </div>
   );
 };
